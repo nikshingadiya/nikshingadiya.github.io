@@ -14,12 +14,13 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #1449dd;
   text-decoration: none;
+  font-weight: 600;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #173b6c;
   text-decoration: none;
 }
 
@@ -1100,6 +1101,7 @@ section {
   margin: 0;
   overflow: hidden;
   padding: 0;
+  margin-top: 25px;
 }
 .tag::before {
   background: #fff;
@@ -1125,23 +1127,24 @@ section {
 }
 
 .tag {
-  background: #eee;
+  background: rgba(3, 59, 163, 0.644);
   border-radius: 3px 0 0 3px;
-  font: 22px;
-  color: #999;
+  font: 24px;
+  color: rgb(0, 0, 0);
   display: inline-block;
+  font-weight: 500;
   height: 26px;
   line-height: 26px;
   padding: 0 20px 0 23px;
   position: relative;
-  margin: 0 10px 10px 0;
+  margin: 0px 10px 10px 10px;
   text-decoration: none;
   -webkit-transition: color 0.2s;
 }
 .tag::after {
   background: #fff;
   border-bottom: 13px solid transparent;
-  border-left: 10px solid #eee;
+  border-left: 10px solid rgba(3, 59, 163, 0.637);
   border-top: 13px solid transparent;
   content: "";
   position: absolute;
@@ -1150,11 +1153,11 @@ section {
 }
 
 .tag:hover {
-  background-color: #9e5a63;
+  background-color: #4042d6d2;
   color: white;
 }
 .tag:hover::after {
-  border-left-color: #9e5a63;
+  border-left-color: #4042d6d2;
 }
 
 .resume1 .resume1-title {
