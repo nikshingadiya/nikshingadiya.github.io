@@ -1127,7 +1127,7 @@ section {
 }
 
 .tag {
-  background: rgba(3, 59, 163, 0.644);
+  background: rgba(2, 46, 128, 0.336);
   border-radius: 3px 0 0 3px;
   font: 24px;
   color: rgb(0, 0, 0);
@@ -1144,7 +1144,7 @@ section {
 .tag::after {
   background: #fff;
   border-bottom: 13px solid transparent;
-  border-left: 10px solid rgba(3, 59, 163, 0.637);
+  border-left: 10px solid rgba(2, 46, 128, 0.336);
   border-top: 13px solid transparent;
   content: "";
   position: absolute;
