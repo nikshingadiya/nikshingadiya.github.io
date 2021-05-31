@@ -74,3 +74,6 @@ li {
   position: relative;
   z-index: 2;
 }
+.remove_line {
+  text-decoration: none;
+}

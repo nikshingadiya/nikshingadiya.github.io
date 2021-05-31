@@ -16,12 +16,15 @@ body {
 a {
   color: #1449dd;
   text-decoration: none;
+  /* text-decoration: underline 0.15em rgba(0, 0, 0, 0); */
+  /* text-decoration: none; */
+
   font-weight: 600;
 }
 
 a:hover {
   color: #173b6c;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 h1,
