@@ -20,9 +20,7 @@ h2 {
   width: max-content;
 }
 .skill-ul,
-li {
-  list-style: none;
-}
+
 .skill-ul {
   overflow: hidden;
   padding: 3em;
@@ -76,4 +74,23 @@ li {
 }
 .remove_line {
   text-decoration: none;
+}
+ul {
+
+  list-style: none;
+}
+
+.bullet {
+  padding-top: 10px;
+  list-style-type: disc;
+  color: black;
+
+  
+}
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000000;
 }

@@ -292,8 +292,11 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
   overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  padding: 1rem 4rem;
+  box-sizing: border-box;
 }
 
 .section-bg {
