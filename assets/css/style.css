@@ -494,6 +494,7 @@ section {
 
 .resume1 .resume1-item ul li {
   padding-bottom: 10px;
+  list-style-type: disc;
 }
 
 .resume1 .resume1-item:last-child {
@@ -1162,6 +1163,13 @@ section {
 .tag:hover::after {
   border-left-color: #4042d6d2;
 }
+.bullet{
+  padding-top: 10px;
+  list-style-type: square;
+  color: black;
+
+  
+}
 
 .resume1 .resume1-title {
   font-size: 26px;
@@ -1219,4 +1227,11 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #1f5297;
+}
+.bullet{
+  padding-top: 10px;
+  list-style-type: disc;
+  color: black;
+
+  
 }
